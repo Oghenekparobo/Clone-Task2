@@ -1,0 +1,335 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.light{ 
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.bg-color{ 
+    background-color: #d9b1b3;
+    width: 100%;
+    padding: 60px ;
+    text-align: center;
+}
+hr{ 
+    background-color: #d9b1b3;
+    width: 70%;
+    height: 0.5rem;
+    margin: 0 auto;
+}
+.no-bg{ 
+    width: 100%;
+    padding: 60px ;
+    text-align: center;
+}
+
+
+
+.custom-font{ 
+    font-family: 'Playfair Display', serif;
+}
+
+.small-text{ 
+    font-size:1.1rem;
+}
+
+.big-text{
+    font-size: 5rem;
+}
+
+
+
+.custom-color{ 
+    color: #ffff;
+}
+
+
+.showcase-flex{ 
+    width: 100%;
+    display: flex;
+    flex: 1;
+
+}
+
+.b-radius{ 
+        padding: 0.5rem;
+        border-radius: 3rem;
+}
+
+.hamburger-icon{ 
+    position: relative;
+    /* bottom: 1rem; */
+}
+
+header{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.header-texts{ 
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 36rem;
+    
+}
+
+
+.header-paragraph{ 
+    background-color: white;
+    padding: 40px;
+    margin-left: 3rem;
+}
+/* 
+.article-section{ 
+width: 100%;
+padding: 60px ;
+text-align: center;
+
+} */
+
+.article-section > div{ 
+   margin-left: 5rem;
+    
+    }
+    
+
+.article-heading{ 
+    width: 80%;
+}
+
+.article-paragraph{ 
+    width: 35%;
+    padding-top: 3rem;
+}
+
+
+.image-gallery{ 
+    width: 100%;
+}
+
+.showcase-section{ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+ .img-showcase{ 
+    /* height: 500px; */
+    /* border: 1px solid red; */
+    height: 450px;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img1{ 
+    background-image:url(../img/img1.jpg);
+}
+
+.img2{ 
+    background-image:url(../img/img2.jpg);
+}
+.img3{ 
+    background-image:url(../img/img3.jpg);
+}
+.img4{ 
+    background-image:url(../img/img4.jpg);
+}
+.img5{ 
+    background-image:url(../img/img5.jpg);
+}
+.img6{ 
+    background-image:url(../img/img6.jpg);
+}
+
+
+.arrival-info{ 
+    margin: 1.3rem;
+}
+
+.input-container{ 
+    padding-right: 0.5rem;
+}
+
+.update{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn button{ 
+    background: black;
+   
+
+}
+
+.other-btn{ 
+    background: black;
+    padding: 1.1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.feminine{ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.feminine-pic{ 
+    height: 350px;
+    width: 300px;
+    background-image: url(../img/woman1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.feminine-texts{ 
+    text-align: center;
+    width: 50%;
+    margin-top: 5rem;
+    padding-left: 4rem;
+}
+
+.feminine-name{ 
+    padding-top: 4rem;
+    font-size: 2.5rem;
+    color: red;
+    font-family: 'Monsieur La Doulaise', cursive;
+}
+
+.collection-products{ 
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+.products{ 
+    width: 200px;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tees{ 
+    background-image: url(../img/tee.jpg);
+}
+
+.shades{ 
+    background-image: url(../img/shades.jpg);
+}
+
+.bag{ 
+    background-image: url(../img/bag.jpg);
+}
+
+.shoe{ 
+    background-image: url(../img/shoe.jpg);
+}
+
+
+.sample-products{ 
+    display: flex;
+    justify-content: center;
+    gap: 0.9rem;
+    
+}
+
+.airforce1{
+background-image: url(../img/airforce2.jpg);
+}
+
+.airforce2{ 
+    background-image: url(../img/airforce1.jpg);
+}
+
+
+.sample-text { 
+    width: 30%;
+    margin-top: 1.9rem;
+    padding-left: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+
+.sample-text h1 { 
+    padding-right:18rem;
+    font-size: 1.5rem;
+}
+
+.sample-text h2{ 
+    padding-right:25.4rem;
+    padding-top: 1rem;
+}
+
+.sample-text p{ 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.subscribe-section{ 
+    display: flex;
+}
+
+
+.sub-img{
+    width: 50%;
+    height: 50vh;
+    background-image: url(../img/minimalist.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.subscribe{ 
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.subscribe-form{ 
+    padding: 1.2rem;
+}
+
+.subscribe-form .subscribe-inputs input:last-child{ 
+    margin-left: 0.8rem;
+}
+
+.subscribe-form .subscribe-inputs input{ 
+    padding: 1.3rem 3.5rem;
+    border: 1px solid rgb(211, 205, 205);
+}
+
+.subscribe-text{ 
+    padding: 1rem;
+}
