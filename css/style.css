@@ -60,11 +60,11 @@ hr{
         border-radius: 3rem;
 }
 
- .hamburger-icon{ 
-    position: relative;
-    margin-bottom:19rem;
-     bottom: 1rem; 
-} 
+.hamburger-icon{ 
+    /* position: relative; */
+    margin-bottom: 9rem;
+    /* bottom: 1rem; */
+}
 
 header{ 
     display: flex;
@@ -82,8 +82,7 @@ header{
     display: flex;
     width: 70%;
     justify-content: center;
-    /* margin-top:15rem; */
-    /* padding-bottom: 14rem; */
+    margin-top:23em;
    margin-left: 8rem;
 
     
