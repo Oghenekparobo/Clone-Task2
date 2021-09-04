@@ -34,7 +34,7 @@ hr{
 }
 
 .small-text{ 
-    font-size:1.1rem;
+    font-size:1rem;
 }
 
 .big-text{
@@ -62,6 +62,7 @@ hr{
 
 .hamburger-icon{ 
     position: relative;
+    margin-bottom: 6rem;
     /* bottom: 1rem; */
 }
 
@@ -82,13 +83,15 @@ header{
     width: 70%;
     justify-content: center;
     margin-top:26em;
+   margin-left: 8rem;
+
     
 }
 
 
 .header-paragraph{ 
     background-color: white;
-    padding: 40px;
+    padding: 30px;
     margin-left: 3rem;
 }
 /* 
